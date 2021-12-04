@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 
 @Configuration
 public class PersistenceConfiguration {
-    @Value("${spring.datasource.url}")
+   /* @Value("${spring.datasource.url}")
     private String dbUrl;
 
     @Value("${spring.datasource.username}")
@@ -25,5 +25,5 @@ public class PersistenceConfiguration {
         builder.username(dbUsername);
         builder.password(dbPassword);
         return builder.build();
-    }
+    }*/
 }
